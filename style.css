@@ -151,8 +151,8 @@ th, td {
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    width: 100vw;
-    height: 7vh;
+    width: 100%;
+    height: 70px;
     padding: 25px 0;
     /* Стили для футера */
 }
