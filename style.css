@@ -24,7 +24,7 @@ button {
 
 header {
     background-color: #2965f1;
-    width: 1440px;
+    width-min: 1440px;
     height: 70px;
     padding: 23px 0;
     /* Стили для хедера */
@@ -38,18 +38,29 @@ header span {
 }
 
 .main-section {
+    background-color: #fafaff;
+    min-height: 100vh;
+    padding: 60px 0;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
